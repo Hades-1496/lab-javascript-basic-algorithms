@@ -5,8 +5,8 @@ let hacker2 = "hacker1";
 console.log("The navigartor's name is " + hacker2);
 
 // Iteration 2: Conditionals
-if (hacker1.length < hacker2.length) console.log("The driver has the longest name, it has " +hacker1.length+ " characters")
-if (hacker1.length > hacker2.length) console.log("It seems that the navigator has the longest name, it has "+hacker2+ " characters.")
+if (hacker1.length > hacker2.length) console.log("The driver has the longest name, it has " +hacker1.length+ " characters")
+if (hacker1.length < hacker2.length) console.log("It seems that the navigator has the longest name, it has "+hacker2+ " characters.")
 if (hacker1.length == hacker2.length) console.log("Wow! you have equally long names, "+hacker1.length+" characters!")
 // Iteration 3: Loops
 let capitalizedAndSpaced = "";
